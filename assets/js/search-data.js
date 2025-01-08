@@ -14,7 +14,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/Blogs/";
           },
         },{id: "nav-second-brain",
           title: "Second Brain",
@@ -44,51 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Connect/";
           },
-        },{id: "post-just-a-moment",
-      
-        title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://open.substack.com/pub/bashcraft/p/ep2-relational-databases?r=3u2izw&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false", "_blank");
-        
-      },
-    },{id: "post-just-a-moment",
-      
-        title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://open.substack.com/pub/bashcraft/p/a-good-project-for-you?r=3u2izw&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false", "_blank");
-        
-      },
-    },{id: "post-just-a-moment",
-      
-        title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://open.substack.com/pub/bashcraft/p/the-coldplay-fiasco-nobody-said-it?r=3u2izw&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false", "_blank");
-        
-      },
-    },{id: "post-just-a-moment",
-      
-        title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://bashcraft.substack.com/p/there-is-nothing-like-a-roadmap-or", "_blank");
-        
-      },
-    },{id: "news-a-simple-inline-announcement",
+        },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
