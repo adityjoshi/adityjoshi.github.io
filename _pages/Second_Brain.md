@@ -8,7 +8,7 @@ nav_order: 4
 
 <div style="text-align: center; font-family: 'Glyphicons Halflings';">
   <h1 style="font-size: 3rem; color: red; margin-bottom: 10px;">Second Brain</h1>
-  <p style="font-size: 1.2rem; font-family: 'Arial', sans-serif; color: #333;">
+  <p style="font-size: 1.2rem; font-family: 'Arial', sans-serif;">
     A curated space for books and research papers that sparked my engineering curiosity and helped me to become a better engineer.
   </p>
 </div>
@@ -17,7 +17,7 @@ nav_order: 4
 
 <!-- Books Section -->
 <div style="text-align: left; font-family: 'Glyphicons Halflings'; margin-bottom: 20px;">
-  <h2 style="font-size: 1.5rem; color: #333;">Books</h2>
+  <h2 style="font-size: 1.5rem; ">Books</h2>
   <ul style="list-style-type: none; padding: 0; font-family: 'Arial', sans-serif; color: #555;">
     <li><a href="https://www.goodreads.com/book/show/3735293-clean-code" style="color: blue; text-decoration: none;">Clean Code by Robert C. Martin</a></li>
     <li><a href="https://www.amazon.in/Operating-System-Concepts-Abraham-Silberschatz/dp/1119800366" style="color: blue; text-decoration: none;">Operating System Concepts by Abraham Silberschatz</a></li>
@@ -31,7 +31,7 @@ nav_order: 4
 
 <!-- Research Papers Section -->
 <div style="text-align: left; font-family: 'Glyphicons Halflings';">
-  <h2 style="font-size: 1.5rem; color: #333;">Research Papers</h2>
+  <h2 style="font-size: 1.5rem;">Research Papers</h2>
   <ul style="list-style-type: none; padding: 0; font-family: 'Arial', sans-serif; color: #555;">
     <li><a href="https://research.google/pubs/pub62/" style="color: blue; text-decoration: none;">MapReduce: Simplified Data Processing on Large Clusters</a></li>
     <li><a href="https://web.cs.ucla.edu/classes/cs217/05BitTorrent.pdf" style="color: blue; text-decoration: none;">Peer-to-peer Networking with BitTorrent</a></li>
