@@ -22,7 +22,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🐉 # the image used as the favicon (provide image name in /assets/img/)
 
-url: https://adityajoshi.github.io # the base hostname & protocol for your site
+url: https://adityjoshi.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -134,16 +134,7 @@ external_sources:
   #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
   #       published_date: 2024-05-14
 
-- name: Substack
-    posts:
-      - url: https://bashcraft.substack.com/p/there-is-nothing-like-a-roadmap-or
-        published_date: 2024-12-03
-      - url: https://open.substack.com/pub/bashcraft/p/the-coldplay-fiasco-nobody-said-it?r=3u2izw&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false
-        published_date: 2024-12-11
-      - url: https://open.substack.com/pub/bashcraft/p/ep2-relational-databases?r=3u2izw&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false
-        published_date: 2024-12-28
-      - url: https://open.substack.com/pub/bashcraft/p/a-good-project-for-you?r=3u2izw&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false
-        published_date: 2024-12-21
+ 
 
 # -----------------------------------------------------------------------------
 # Newsletter
