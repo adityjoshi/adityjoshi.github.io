@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-<div style="text-align: center; font-family: 'Arial';">
+<div style="text-align: center; font-family: 'Glyphicons Halflings';">
   <h1 style="font-size: 3rem; color: red; margin-bottom: 10px;">Blogs</h1>
   <p style="font-size: 1.2rem;">
     I delve into research papers and resources that help me grow as a better engineer, documenting the insights and perspectives I gain along the way. Here’s a collection of all the blogs I’ve written so far.
