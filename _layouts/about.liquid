@@ -44,24 +44,69 @@ layout: default
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
-
-    <!-- Latest posts -->
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <!-- Latest Posts Section -->
+  <div style="flex: 1;">
     {% if site.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/Blogs/' | relative_url }}" style="color: inherit">Latest Posts</a>
       </h2>
-      {% include latest_posts.liquid %}
+      <ul>
+      {% assign blog_posts = site.pages | where: "title", "Blogs" | first %}
+      {% if blog_posts.blogs %}
+        {% for blog in blog_posts.blogs limit: 5 %}
+          <li>
+            <a href="{{ blog.link }}" style="color: blue; text-decoration: none;">{{ blog.title }}</a>
+            <span style="color: grey; font-size: 0.9rem;">({{ blog.date }})</span>
+          </li>
+        {% endfor %}
+      {% else %}
+        <li>No blogs available.</li>
+      {% endif %}
+      </ul>
     {% endif %}
+  </div>
+
+  <!-- Research Papers Section -->
+  <div style="flex: 1;">
+    <h2 style="font-size: 2rem; ; text-transform: none;">Research Papers</h2>
+    <ul>
+      {% assign brain_page = site.pages | where: "title", "Second Brain" | first %}
+      {% if brain_page %}
+        {% capture brain_content %}
+          {{ brain_page.content }}
+        {% endcapture %}
+
+        <!-- Use regex to locate only the "Research Papers" section -->
+        {% assign research_section_start = brain_content | split: "<!-- Research Papers Section -->" | last %}
+        {% assign research_section_end = research_section_start | split: "<hr" | first %}
+
+        <!-- Extract individual list items for research papers -->
+        {% assign research_papers = research_section_end | split: "<li>" %}
+        {% for item in research_papers %}
+          {% if item contains '<a href=' %}
+            <li>
+              <a href="{{ item | split: 'href="' | last | split: '"' | first }}" style="color: blue; text-decoration: none;">
+                {{ item | strip_newlines | strip_html }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        <li>No research papers found. Please check back later!</li>
+      {% endif %}
+    </ul>
+  </div>
+</div>
+
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/Brain/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
-
-    
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
