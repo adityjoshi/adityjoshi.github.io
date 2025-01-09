@@ -23,7 +23,7 @@ nav_order: 4
     <li><a href="https://www.amazon.in/Operating-System-Concepts-Abraham-Silberschatz/dp/1119800366" style="color: blue; text-decoration: none;">Operating System Concepts by Abraham Silberschatz</a></li>
     <li><a href="https://www.amazon.in/Computer-Networking-Top-Down-Approach-Global/dp/1292153598" style="color: blue; text-decoration: none;">Computer Networking: A Top-Down Approach by James Kurose and Keith Ross</a></li>
     <li><a href="https://www.google.com/search?client=safari&rls=en&q=TCP%2FIP+Illustrated+by+W.+Richard+Stevens&ie=UTF-8&oe=UTF-8" style="color: blue; text-decoration: none;">TCP/IP Illustrated by W. Richard Stevens</a></li>
-    <li><a href="https://www.amazon.in/JAVA-COMPLETE-REFERENCE-Herbert-Schildt/dp/9355326475/ref=asc_df_9355326475/?tag=googleshopdes-21&linkCode=df0&hvadid=710087205764&hvpos=&hvnetw=g&hvrand=16344559813150631211&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9300819&hvtargid=pla-2298583349659&psc=1&mcid=0f46368675b230a18e345f50ff5fd2e5&gad_source=1">Java: The Complete Reference by Herbert Schildt</a></li>
+    <li><a href="https://www.amazon.in/JAVA-COMPLETE-REFERENCE-Herbert-Schildt/dp/9355326475/ref=asc_df_9355326475/?tag=googleshopdes-21&linkCode=df0&hvadid=710087205764&hvpos=&hvnetw=g&hvrand=16344559813150631211&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9300819&hvtargid=pla-2298583349659&psc=1&mcid=0f46368675b230a18e345f50ff5fd2e5&gad_source=1" style="color: blue; text-decoration: none;">Java: The Complete Reference by Herbert Schildt</a></li>
   </ul>
 </div>
 
